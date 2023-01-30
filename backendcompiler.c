@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 #include<string.h>
 int main()
 {
@@ -37,5 +37,5 @@ printf("\n\tMov %c,R%d",str[2],i);
 printf("\n\t%s%c,R%d",opr,str[4],i);
 printf("\n\tMov R%d,%c",i,str[0]);
 }while(strcmp(icode[++i],"exit")!=0);
-//getch();
+getch();
 }
